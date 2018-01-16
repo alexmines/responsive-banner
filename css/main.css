@@ -14,7 +14,12 @@ p {
 .btn {
   color: #fff;
   border-color: #97a49b;
-  max-height: 500px;
+}
+
+.btn:hover {
+  color: #495562;
+  background-color: #fff;
+  border-color: transparent;
 }
 
 img {
@@ -30,11 +35,21 @@ img {
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
+    width: 100%;
   }
 
   .banner {
     max-height: 500px;
     position: relative;
+  }
+
+  .btn {
+    color: #fff;
+    border-color: #fff;
+  }
+
+  .banner-btn {
+    text-align: right;
   }
 
 }
